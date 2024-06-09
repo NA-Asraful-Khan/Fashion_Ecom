@@ -27,13 +27,14 @@
     font-weight: 500;
 }
 
-.nav-menu li{
+.nav-menu .nav-li{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap:3px;
     cursor: pointer;
+    text-decoration: none
 }
 
 .nav-menu hr{
