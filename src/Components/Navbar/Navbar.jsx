@@ -26,13 +26,13 @@ export const Navbar = () => {
 
             <div className="nav-login-cart">
 
-                <Link to="/Login">
+                <Link to="/Login" onClick={() => { setMenu("") }}>
                     <button>Login</button>
                 </Link>
-                <Link to="/cart">
+                <Link to="/cart" onClick={() => { setMenu("") }} >
                     <img src={cart_icon} alt="" />
                 </Link>
-                <Link to="/cart">
+                <Link to="/cart" onClick={() => { setMenu("") }}>
                     <div className="nav-cart-count">0</div>
                 </Link>
 
