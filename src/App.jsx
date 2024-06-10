@@ -12,6 +12,7 @@ function App() {
 
   return (
     <div>
+      <h2>54:19</h2>
       <BrowserRouter>
         <Navbar />
         <Routes>
