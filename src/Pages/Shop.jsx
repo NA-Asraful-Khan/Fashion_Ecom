@@ -1,9 +1,9 @@
-import { Hero } from "../Components/Hero/Hero"
-import { Offers } from "../Components/Offers/Offers"
+import { Hero } from "../Components/Shop_Page/Hero/Hero"
+import { Offers } from "../Components/Shop_Page/Offers/Offers"
 import {Section} from "../Components/Section/Section"
 import data_product from '../Components/Assets/data'
 import new_collection from '../Components/Assets/new_collections'
-import { NewsLetter } from "../Components/NewsLetter/NewsLetter"
+import { NewsLetter } from "../Components/Shop_Page/NewsLetter/NewsLetter"
 
 
 export const Shop = () => {

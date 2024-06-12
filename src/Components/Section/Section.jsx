@@ -1,5 +1,5 @@
 import './Section.css'
-import { Item } from '../Item/Item'
+import { Item } from '../Shared/Item/Item'
 export const Section = ({title,data}) => {
   return (
     <div className='section'>

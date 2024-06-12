@@ -1,13 +1,13 @@
 
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import './App.css'
-import { Navbar } from './Components/Navbar/Navbar'
 import { Shop } from './Pages/Shop'
 import { ShopCatagory } from './Pages/ShopCatagory'
 import { Product } from './Pages/Product'
 import { Cart } from './Pages/Cart'
 import { LoginSignup } from './Pages/LoginSignup'
-import { Footer } from './Components/Footer/Footer'
+import { Navbar } from './Components/Shared/Navbar/Navbar'
+import { Footer } from './Components/Shared/Footer/Footer'
 
 function App() {
 

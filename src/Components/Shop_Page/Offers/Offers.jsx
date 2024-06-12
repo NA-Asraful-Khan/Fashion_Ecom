@@ -1,5 +1,5 @@
 import './Offer.css'
-import exclusive_image from '../Assets/exclusive_image.png'
+import exclusive_image from '../../Assets/exclusive_image.png'
 
 export const Offers = () => {
   return (
