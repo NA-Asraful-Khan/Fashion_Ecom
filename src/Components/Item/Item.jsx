@@ -3,6 +3,7 @@ import './Item.css'
 export const Item = ({item}) => {
     const {image,name,new_price,old_price} = item
   return (
+    <>
     <div className="item">
         <img src={image} alt="" />
         <p>{name}</p>
@@ -15,5 +16,6 @@ export const Item = ({item}) => {
             </div>
         </div>
     </div>
+    </>
   )
 }

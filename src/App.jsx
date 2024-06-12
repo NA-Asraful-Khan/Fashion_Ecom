@@ -12,7 +12,7 @@ function App() {
 
   return (
     <div>
-      <h2>54:19</h2>
+      <h2>1:05:38</h2>
       <BrowserRouter>
         <Navbar />
         <Routes>
