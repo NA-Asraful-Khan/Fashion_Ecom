@@ -6,7 +6,7 @@ export const Item = ({item}) => {
   return (
     <>
     <div className="item">
-        <Link to={`/product/${item.id}`}><img src={image} alt="" /></Link>
+        <Link to={`/product/${item.id}`}><img  onClick={window.scrollTo(0,0)} src={image} alt="" /></Link>
 
         <p>{name}</p>
         <div className="item-prices">

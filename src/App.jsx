@@ -16,9 +16,10 @@ function App() {
 
   return (
     <div>
-      <h2>2:20:30</h2>
+      {/* <h2>2:58:30</h2> */}
       <BrowserRouter>
         <Navbar />
+        <div style={{marginTop:'100px'}}>
         <Routes>
           <Route path='/' element={<Shop/>}/>
           <Route path='/Mens' element={<ShopCatagory banner={men_banner} category="men"/>}/>
@@ -33,6 +34,7 @@ function App() {
           <Route path='/login' element={<LoginSignup/>}/>
 
         </Routes>
+        </div>
         <Footer/>
       </BrowserRouter>
     </div>
