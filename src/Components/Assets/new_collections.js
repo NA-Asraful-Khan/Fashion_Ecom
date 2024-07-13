@@ -9,6 +9,7 @@ import p8_img from "./product_28.png";
 
 let new_collections = [
   {
+    category: "women",
     id: 12,
     name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
     image: p1_img,
@@ -17,6 +18,7 @@ let new_collections = [
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
   },
   {
+    category: "kid",
     id: 35,
     name: "Boys Orange Colourblocked Hooded Sweatshirt",
     image: p2_img,
@@ -25,6 +27,7 @@ let new_collections = [
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
   },
   {
+    category: "men",
     id: 14,
     name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
     image: p3_img,
@@ -33,6 +36,7 @@ let new_collections = [
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
   },
   {
+    category: "women",
     id: 8,
     name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
     image: p4_img,
@@ -41,6 +45,7 @@ let new_collections = [
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
   },
   {
+    category: "men",
     id: 15,
     name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
     image: p5_img,
@@ -49,6 +54,7 @@ let new_collections = [
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
   },
   {
+    category: "women",
     id: 2,
     name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
     image: p6_img,
@@ -57,6 +63,7 @@ let new_collections = [
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
   },
   {
+    category: "men",
     id: 17,
     name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
     image: p7_img,
@@ -65,6 +72,7 @@ let new_collections = [
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
   },
   {
+    category: "kid",
     id: 28,
     name: "Boys Orange Colourblocked Hooded Sweatshirt",
     image: p8_img,
