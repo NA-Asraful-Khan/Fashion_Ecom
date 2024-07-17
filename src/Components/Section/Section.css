@@ -28,3 +28,65 @@
     margin-top: 50px;
     gap:30px
 }
+
+@media(max-width:1280px){
+    
+
+    .section h1{
+        font-size: 40px;
+    }
+    .section h1::after {
+        width: 160px; 
+        height: 4px; 
+    }
+
+    .section-item{
+        margin-top: 30px;
+        gap:20px
+    }
+    
+}
+
+@media(max-width:1024px){
+    .section h1{
+        font-size: 30px;
+    }
+    .section h1::after {
+        width: 120px; 
+        height: 3px; 
+    }
+
+    .section-item{
+        margin-top: 20px;
+        gap:15px;
+        
+    }
+    
+}
+
+@media(max-width:800px){
+    .section{
+        gap: 6px;
+    }
+    .section h1{
+        font-size: 20px;
+    }
+    .section h1::after {
+        width: 100px; 
+        height: 3px; 
+    }
+
+    .section-item{
+        gap:10px;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    
+}
+
+@media(max-width:500px){
+    .section-item{
+        gap:20px;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+}

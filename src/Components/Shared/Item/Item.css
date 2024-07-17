@@ -67,11 +67,10 @@
 
 @media(max-width:800px){
     .item{
-        width: 120px;
-        font-size: 12px;
+        width: 145px;
     }
     .item img{
-        width: 120px;
+        width: 145px;
     }
 
     .itme-price-old{
