@@ -19,7 +19,7 @@ function App() {
       {/* <h2>3:16:06</h2> */}
       <BrowserRouter>
         <Navbar />
-        <div style={{paddingTop:'80px'}}>
+        <div className='allContent'>
         <Routes>
           <Route path='/' element={<Shop/>}/>
           <Route path='/Mens' element={<ShopCatagory banner={men_banner} category="men"/>}/>

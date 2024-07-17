@@ -40,3 +40,25 @@
 .read-the-docs {
   color: #888;
 } */
+
+.allContent{
+  padding-top:90px;
+}
+
+@media(max-width:1280px){
+  .allContent{
+    padding-top:30px;
+  }
+}
+
+@media(max-width:1024px){
+  .allContent{
+    padding-top:0px;
+  }
+}
+
+@media(max-width:500px){
+  .allContent{
+    padding-top:30px;
+  }
+}
