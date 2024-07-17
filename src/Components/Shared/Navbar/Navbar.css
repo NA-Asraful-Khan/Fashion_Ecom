@@ -168,10 +168,12 @@
         top: 60px;
         transition: height 0.3s ease, opacity 0.3s ease;
         opacity: 0;
+        pointer-events: none; /* Disable pointer events when hidden */
     }
     .nav-menu-visible {
         height: 200px; /* Adjust based on the number of items */
         opacity: 1;
+        pointer-events: auto;
     }
     .nav-dropdown.open {
         transform: rotate(0deg);
@@ -192,5 +194,9 @@
     }
     .nav-login-cart {
         transform: scale(0.8);
+    }
+    .nav-menu-visible {
+        height: 200px; /* Adjust based on the number of items */
+        opacity: 1;
     }
 }
