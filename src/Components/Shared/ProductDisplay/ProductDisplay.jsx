@@ -9,7 +9,7 @@ const ProductDisplay = ({ product }) => {
 
   const handleAddToCart = (event) => {
     event.preventDefault(); // Prevent the default button behavior
-    addToCart(product.id);
+    addToCart(product?.id);
     console.log(`Product ${product.id} added to cart.`);
   };
 

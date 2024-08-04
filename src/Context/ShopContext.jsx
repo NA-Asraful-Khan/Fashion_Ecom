@@ -1,4 +1,7 @@
-import { createContext, useEffect, useState } from "react";
+import { createContext, useState } from "react";
+import { useQuery } from "react-query";
+import axios from "axios";
+
 export const ShopContext = createContext(null);
 
 const getDefaultCart = () => {
@@ -9,18 +12,51 @@ const getDefaultCart = () => {
   return cart;
 };
 
+const fetchProducts = async () => {
+  const { data } = await axios.get(
+    "http://localhost:4000/api/products/allproducts"
+  );
+  return data;
+};
+
 const ShopContextProvider = (props) => {
-  const [all_product, setAll_Product] = useState([]);
+  const {
+    data: all_product,
+    isLoading,
+    error,
+  } = useQuery("products", fetchProducts);
   const [cartItems, setCartItems] = useState(getDefaultCart());
 
-  useEffect(() => {
-    fetch("http://localhost:4000/api/products/allproducts")
-      .then((res) => res.json())
-      .then((data) => setAll_Product(data));
-  }, []);
-  console.log(all_product);
   const addToCart = (itemId) => {
     setCartItems((prev) => ({ ...prev, [itemId]: prev[itemId] + 1 }));
+
+    if (localStorage.getItem("auth-token")) {
+      console.log("Auth token exists, making the fetch request...");
+
+      fetch("http://localhost:4000/api/products/addtocart", {
+        method: "POST",
+        headers: {
+          Accept: "application/json",
+          "auth-token": `${localStorage.getItem("auth-token")}`,
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ itemId: itemId }),
+      })
+        .then((res) => {
+          if (!res.ok) {
+            throw new Error(`HTTP error! status: ${res.status}`);
+          }
+          return res.json();
+        })
+        .then((data) => {
+          console.log("Fetch successful, response data:", data);
+        })
+        .catch((error) => {
+          console.error("Fetch error:", error);
+        });
+    } else {
+      console.log("Auth token not found in localStorage.");
+    }
   };
 
   const removeFromCart = (itemId) => {
@@ -58,6 +94,9 @@ const ShopContextProvider = (props) => {
     getTotalCartAmount,
     getTotalCartItems,
   };
+
+  if (isLoading) return <div>Loading...</div>;
+  if (error) return <div>Error loading products: {error.message}</div>;
 
   return (
     <ShopContext.Provider value={contextValue}>
