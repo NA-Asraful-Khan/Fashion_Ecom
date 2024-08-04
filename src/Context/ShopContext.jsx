@@ -1,4 +1,4 @@
-import { createContext, useState } from "react";
+import { createContext, useEffect, useState } from "react";
 import { useQuery } from "react-query";
 import axios from "axios";
 
@@ -27,6 +27,28 @@ const ShopContextProvider = (props) => {
   } = useQuery("products", fetchProducts);
   const [cartItems, setCartItems] = useState(getDefaultCart());
 
+  useEffect(() => {
+    if (localStorage.getItem("auth-token")) {
+      fetch("http://localhost:4000/api/products/getCart", {
+        method: "POST",
+        headers: {
+          Accept: "application/json",
+          "auth-token": `${localStorage.getItem("auth-token")}`,
+          "Content-Type": "application/json",
+        },
+        body: "",
+      })
+        .then((res) => {
+          if (!res.ok) {
+            throw new Error(`HTTP error! status: ${res.status}`);
+          }
+          return res.json();
+        })
+        .then((data) => {
+          setCartItems(data);
+        });
+    }
+  }, []);
   const addToCart = (itemId) => {
     setCartItems((prev) => ({ ...prev, [itemId]: prev[itemId] + 1 }));
 
@@ -61,6 +83,33 @@ const ShopContextProvider = (props) => {
 
   const removeFromCart = (itemId) => {
     setCartItems((prev) => ({ ...prev, [itemId]: prev[itemId] - 1 }));
+    if (localStorage.getItem("auth-token")) {
+      console.log("Auth token exists, making the fetch request...");
+
+      fetch("http://localhost:4000/api/products/removeFromCart", {
+        method: "POST",
+        headers: {
+          Accept: "application/json",
+          "auth-token": `${localStorage.getItem("auth-token")}`,
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ itemId: itemId }),
+      })
+        .then((res) => {
+          if (!res.ok) {
+            throw new Error(`HTTP error! status: ${res.status}`);
+          }
+          return res.json();
+        })
+        .then((data) => {
+          console.log("Fetch successful, response data:", data);
+        })
+        .catch((error) => {
+          console.error("Fetch error:", error);
+        });
+    } else {
+      console.log("Auth token not found in localStorage.");
+    }
   };
 
   const getTotalCartAmount = () => {
