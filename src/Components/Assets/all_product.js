@@ -45,7 +45,6 @@ let all_product = [
     old_price: 80.5,
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-    categoryTags: ["T-Shirt", "Crop Top"],
     tags: ["T-Shirt", "Crop Top"],
   },
   {
@@ -57,7 +56,6 @@ let all_product = [
     old_price: 120.5,
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-    categoryTags: ["T-Shirt", "Crop Top"],
     tags: ["T-Shirt", "Crop Top"],
   },
   {
@@ -69,7 +67,6 @@ let all_product = [
     old_price: 100.5,
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-    categoryTags: ["T-Shirt", "Crop Top"],
     tags: ["T-Shirt", "Crop Top"],
   },
   {
@@ -81,7 +78,6 @@ let all_product = [
     old_price: 150.0,
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-    categoryTags: ["T-Shirt", "Crop Top"],
     tags: ["T-Shirt", "Crop Top"],
   },
   {
@@ -93,7 +89,6 @@ let all_product = [
     old_price: 120.5,
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-    categoryTags: ["T-Shirt", "Crop Top"],
     tags: ["T-Shirt", "Crop Top"],
   },
   {
@@ -105,7 +100,6 @@ let all_product = [
     old_price: 120.5,
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-    categoryTags: ["T-Shirt", "Crop Top"],
     tags: ["T-Shirt", "Crop Top"],
   },
   {
@@ -117,7 +111,6 @@ let all_product = [
     old_price: 120.5,
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-    categoryTags: ["T-Shirt", "Crop Top"],
     tags: ["T-Shirt", "Crop Top"],
   },
   {
@@ -129,7 +122,6 @@ let all_product = [
     old_price: 120.5,
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-    categoryTags: ["T-Shirt", "Crop Top"],
     tags: ["T-Shirt", "Crop Top"],
   },
   {
@@ -141,7 +133,6 @@ let all_product = [
     old_price: 120.5,
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-    categoryTags: ["T-Shirt", "Crop Top"],
     tags: ["T-Shirt", "Crop Top"],
   },
   {
@@ -153,7 +144,6 @@ let all_product = [
     old_price: 120.5,
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-    categoryTags: ["T-Shirt", "Crop Top"],
     tags: ["T-Shirt", "Crop Top"],
   },
   {
@@ -165,7 +155,6 @@ let all_product = [
     old_price: 120.5,
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-    categoryTags: ["T-Shirt", "Crop Top"],
     tags: ["T-Shirt", "Crop Top"],
   },
   {
@@ -177,7 +166,6 @@ let all_product = [
     old_price: 120.5,
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-    categoryTags: ["T-Shirt", "Crop Top"],
     tags: ["T-Shirt", "Crop Top"],
   },
   {
@@ -189,7 +177,6 @@ let all_product = [
     old_price: 120.5,
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-    categoryTags: ["T-Shirt", "Crop Top"],
     tags: ["T-Shirt", "Crop Top"],
   },
   {
@@ -201,7 +188,6 @@ let all_product = [
     old_price: 120.5,
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-    categoryTags: ["T-Shirt", "Crop Top"],
     tags: ["T-Shirt", "Crop Top"],
   },
   {
@@ -213,7 +199,6 @@ let all_product = [
     old_price: 120.5,
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-    categoryTags: ["T-Shirt", "Crop Top"],
     tags: ["T-Shirt", "Crop Top"],
   },
   {
@@ -225,7 +210,6 @@ let all_product = [
     old_price: 120.5,
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-    categoryTags: ["T-Shirt", "Crop Top"],
     tags: ["T-Shirt", "Crop Top"],
   },
   {
@@ -237,7 +221,6 @@ let all_product = [
     old_price: 120.5,
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-    categoryTags: ["T-Shirt", "Crop Top"],
     tags: ["T-Shirt", "Crop Top"],
   },
   {
@@ -249,7 +232,6 @@ let all_product = [
     old_price: 120.5,
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-    categoryTags: ["T-Shirt", "Crop Top"],
     tags: ["T-Shirt", "Crop Top"],
   },
   {
@@ -261,7 +243,6 @@ let all_product = [
     old_price: 120.5,
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-    categoryTags: ["T-Shirt", "Crop Top"],
     tags: ["T-Shirt", "Crop Top"],
   },
   {
@@ -273,7 +254,6 @@ let all_product = [
     old_price: 120.5,
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-    categoryTags: ["T-Shirt", "Crop Top"],
     tags: ["T-Shirt", "Crop Top"],
   },
   {
@@ -285,7 +265,6 @@ let all_product = [
     old_price: 120.5,
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-    categoryTags: ["T-Shirt", "Crop Top"],
     tags: ["T-Shirt", "Crop Top"],
   },
   {
@@ -297,7 +276,6 @@ let all_product = [
     old_price: 120.5,
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-    categoryTags: ["T-Shirt", "Crop Top"],
     tags: ["T-Shirt", "Crop Top"],
   },
   {
@@ -309,7 +287,6 @@ let all_product = [
     old_price: 120.5,
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-    categoryTags: ["T-Shirt", "Crop Top"],
     tags: ["T-Shirt", "Crop Top"],
   },
   {
@@ -321,7 +298,6 @@ let all_product = [
     old_price: 120.5,
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-    categoryTags: ["T-Shirt", "Crop Top"],
     tags: ["T-Shirt", "Crop Top"],
   },
   {
@@ -333,7 +309,6 @@ let all_product = [
     old_price: 120.5,
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-    categoryTags: ["T-Shirt", "Crop Top"],
     tags: ["T-Shirt", "Crop Top"],
   },
   {
@@ -345,7 +320,6 @@ let all_product = [
     old_price: 120.5,
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-    categoryTags: ["T-Shirt", "Crop Top"],
     tags: ["T-Shirt", "Crop Top"],
   },
   {
@@ -357,7 +331,6 @@ let all_product = [
     old_price: 120.5,
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-    categoryTags: ["T-Shirt", "Crop Top"],
     tags: ["T-Shirt", "Crop Top"],
   },
   {
@@ -369,7 +342,6 @@ let all_product = [
     old_price: 120.5,
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-    categoryTags: ["T-Shirt", "Crop Top"],
     tags: ["T-Shirt", "Crop Top"],
   },
   {
@@ -381,7 +353,6 @@ let all_product = [
     old_price: 120.5,
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-    categoryTags: ["T-Shirt", "Crop Top"],
     tags: ["T-Shirt", "Crop Top"],
   },
   {
@@ -393,7 +364,6 @@ let all_product = [
     old_price: 120.5,
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-    categoryTags: ["T-Shirt", "Crop Top"],
     tags: ["T-Shirt", "Crop Top"],
   },
   {
@@ -405,7 +375,6 @@ let all_product = [
     old_price: 120.5,
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-    categoryTags: ["T-Shirt", "Crop Top"],
     tags: ["T-Shirt", "Crop Top"],
   },
   {
@@ -417,7 +386,6 @@ let all_product = [
     old_price: 120.5,
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-    categoryTags: ["T-Shirt", "Crop Top"],
     tags: ["T-Shirt", "Crop Top"],
   },
   {
@@ -429,7 +397,6 @@ let all_product = [
     old_price: 120.5,
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-    categoryTags: ["T-Shirt", "Crop Top"],
     tags: ["T-Shirt", "Crop Top"],
   },
   {
@@ -441,7 +408,6 @@ let all_product = [
     old_price: 120.5,
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-    categoryTags: ["T-Shirt", "Crop Top"],
     tags: ["T-Shirt", "Crop Top"],
   },
   {
@@ -453,7 +419,6 @@ let all_product = [
     old_price: 120.5,
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-    categoryTags: ["T-Shirt", "Crop Top"],
     tags: ["T-Shirt", "Crop Top"],
   },
   {
@@ -465,7 +430,6 @@ let all_product = [
     old_price: 120.5,
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-    categoryTags: ["T-Shirt", "Crop Top"],
     tags: ["T-Shirt", "Crop Top"],
   },
 ];
