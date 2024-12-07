@@ -1,8 +1,9 @@
 import axios from "axios";
 import { useQuery } from "react-query";
+import { apiUrl } from "../config/config";
 
 const fetchAllProduct = () => {
-  return axios.get("http://localhost:4000/api/products/allproducts");
+  return axios.get(`${apiUrl}/api/products/allproducts`);
 };
 
 export const useAllProductData = () => {

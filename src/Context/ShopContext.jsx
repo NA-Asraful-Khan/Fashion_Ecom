@@ -1,9 +1,9 @@
 import { createContext, useEffect, useState } from "react";
 import { useQuery } from "react-query";
 import axios from "axios";
+import { apiUrl } from "../config/config";
 
 export const ShopContext = createContext(null);
-
 const getDefaultCart = () => {
   let cart = {};
   for (let index = 0; index < 300; index++) {
@@ -13,9 +13,7 @@ const getDefaultCart = () => {
 };
 
 const fetchProducts = async () => {
-  const { data } = await axios.get(
-    "http://localhost:4000/api/products/allproducts"
-  );
+  const { data } = await axios.get(`${apiUrl}/api/products/allproducts`);
   return data;
 };
 
@@ -29,7 +27,7 @@ const ShopContextProvider = (props) => {
 
   useEffect(() => {
     if (localStorage.getItem("auth-token")) {
-      fetch("http://localhost:4000/api/products/getCart", {
+      fetch(`${apiUrl}/api/products/getCart`, {
         method: "POST",
         headers: {
           Accept: "application/json",
@@ -55,7 +53,7 @@ const ShopContextProvider = (props) => {
     if (localStorage.getItem("auth-token")) {
       console.log("Auth token exists, making the fetch request...");
 
-      fetch("http://localhost:4000/api/products/addtocart", {
+      fetch(`${apiUrl}/api/products/addtocart`, {
         method: "POST",
         headers: {
           Accept: "application/json",
@@ -86,7 +84,7 @@ const ShopContextProvider = (props) => {
     if (localStorage.getItem("auth-token")) {
       console.log("Auth token exists, making the fetch request...");
 
-      fetch("http://localhost:4000/api/products/removeFromCart", {
+      fetch(`${apiUrl}/api/products/removeFromCart`, {
         method: "POST",
         headers: {
           Accept: "application/json",

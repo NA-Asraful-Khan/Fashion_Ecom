@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./CSS/LoginSignup.css";
+import { apiUrl } from "../config/config";
 
 export const LoginSignup = () => {
   const [state, setState] = useState("Login");
@@ -15,7 +16,7 @@ export const LoginSignup = () => {
 
   const login = async () => {
     try {
-      const response = await fetch("http://localhost:4000/api/users/login", {
+      const response = await fetch(`${apiUrl}/api/users/login`, {
         method: "POST",
         headers: {
           Accept: "application/json",
@@ -39,7 +40,7 @@ export const LoginSignup = () => {
 
   const signup = async () => {
     try {
-      const response = await fetch("http://localhost:4000/api/users/signup", {
+      const response = await fetch(`${apiUrl}/api/users/signup`, {
         method: "POST",
         headers: {
           Accept: "application/json",

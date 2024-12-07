@@ -6,17 +6,14 @@ import { Section } from "../Components/Section/Section";
 import { NewsLetter } from "../Components/Shop_Page/NewsLetter/NewsLetter";
 import axios from "axios";
 import { useQuery } from "react-query";
+import { apiUrl } from "../config/config";
 
 const fetchNewCollection = async () => {
-  const { data } = await axios.get(
-    "http://localhost:4000/api/products/newCollection"
-  );
+  const { data } = await axios.get(`${apiUrl}/api/products/newCollection`);
   return data;
 };
 const fetchPopularWomenCollection = async () => {
-  const { data } = await axios.get(
-    "http://localhost:4000/api/products/popularinwomen"
-  );
+  const { data } = await axios.get(`${apiUrl}/api/products/popularinwomen`);
   return data;
 };
 export const Shop = () => {
